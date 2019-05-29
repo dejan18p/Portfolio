@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Archivo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css"/>
+    <title>Dejan Pavlovic</title>
+    <meta name="keywords" content="portfolio, moji projekti"/>
+	<meta name="description" content="Moj Portfolio"/>
+    <link rel="icon" href="img/d.png" />
+</head>
+<body>
+    <div id="top">
+        <a href="#omeni"><i class="fas fa-arrow-alt-circle-up"></i></a>
+    </div>
+    <nav> 
+        <div id="menu">
+        <ul>
+            <li>
+                <a href="#project">My Projects</a>
+            </li>
+            <li>
+                    <a href="#skills">Skills</a>
+            </li>
+            <li>
+                    <a href="#about">About me
+                    </a>
+            </li>
+            <li>
+                    <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+        </nav>
+        <div id="omeni">
+            <div id="bg">
+                    <div class="okvir"> </div>
+                        <div id="textic">
+                                <h1>hello, I am Dejan Pavlovic...</h1>
+                                
+                        </div>
+                <div id="levo"></div>
+                
+                <div id="desno"></div>
+            </div>
+
+
+
+        </div>
+        <div id="project">
+            <div id="naslov">
+            <h1>My Projects</h1>
+            </div>
+            <div id="boxes">
+
+                <div class="box">
+                        <div class="image">
+                            
+                        </div>
+                <div class="link">
+                        <a href="#">See more.</a>
+                </div>
+                </div>
+
+                <div class="box">
+                        <div class="image">
+
+                        </div>
+                        <div class="link">
+                         <a href="#">See more.</a>
+                        </div>
+                </div>
+
+                <div class="box">
+                        <div class="image">
+        
+                         </div>
+                        <div class="link">
+                        <a href="#">See more.</a>
+                        </div>
+                </div>
+
+                <div class="box">
+                 <div class="image">
+        
+                </div>
+                 <div class="link">
+                        <a href="#">See more.</a>
+                </div>
+            
+        </div>
+        </div>
+        </div>
+        <div id="skills">
+            <h1>Skills</h1>
+            
+            <div class="container"> 
+                    <div class="kutija">
+                        <div class="chart" data-percent="95">95%</div>
+                        <h2>HTML</h2>
+                    </div>
+                    <div class="kutija">
+                        <div class="chart" data-percent="90">90%</div>
+                        <h2>CSS</h2>
+                    </div>
+                    <div class="kutija">
+                        <div class="chart" data-percent="60">60%</div>
+                        <h2>JAVASCRIPT</h2>
+                    </div>
+                    <div class="kutija">
+                        <div class="chart" data-percent="85">85%</div>
+                        <h2>PHOTOSHOP</h2>
+                    </div>
+            </div>
+            <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+            <script src="jquery.easypiechart.js"></script>
+            <script>
+                $(function() {
+                    $('.chart').easyPieChart({
+                        size:180,
+                        barColor:'#17d3e6',
+                        scaleColor: false,
+                        lineWidth:15,
+                        trackColor:'#373737',
+                        lineCap:'circle',
+                        animate:3000
+                    });
+                });
+            </script>
+         </div>   
+        </div>
+        <div id="naslov"><h2>About me</h2></div>
+        <div id="about">
+            
+            <div id="lside">
+                    <img src="img/ja.jpg">
+            </div>
+            <div id="rside">
+                <p> I'm Dejan Pavlovic, I'm 20 years old. I was born in Valjevo, and currently I live in Belgrade. I graduated from high school, the direction of "Computer Network Administrator". I enrolled in a faculty and I'm dealing with a web design ... I have the ambition to deal with I'm working on this job and making progress in it. In my portfolio, I listed my skills and my projects that you can look at ..</p>
+                <div id="fafa">
+                        <a href="sitemap.xml" target="blank"><i class="fas fa-sitemap sitemap"></i></a>
+                        <a href="https://www.facebook.com/dejan18p"><i class="fab fa-facebook-square facebook"></i></a>
+                        <a href="http://instagram.com/dejan18p"><i class="fab fa-instagram"></i></a>
+                    </div>
+            </div>
+        </div>               
+        <div id="contact">
+            <h1>Contact</h1>
+            <div id="kontakt">
+				<div id="forma">
+			  <form action="/send.php" method="GET">
+			    <label for="fname">First Name</label>
+			    <input type="text" id="fname" name="ime" placeholder="First Name...">
+
+			    <label for="lname">Last Name</label>
+			    <input type="text" id="lname" name="prezime" placeholder="Last Name...">
+
+			    <label for="email">Email </label>
+			    <input type="email" id="email" name="email" placeholder="Email...">
+
+			    
+
+			    <label for="fname">Text Message</label>
+			    <textarea id="sda" cols="104px" rows="3px">
+				
+				</textarea>
+			  
+			    <input type="submit" value="Send">
+			  </form>
+			</div>
+        </div>
+        </div>
+        <div id="futer">
+            
+                <a href="img/CV.pdf" download="cv">Download CV !</a>
+            
+        </div>
+</body>
+</html>
