@@ -355,19 +355,19 @@ body{
            }
            #fafa{
              margin-top:10%;
-             width:35%;
+             width:100%;
             display:flex;
             justify-content: space-between;
             margin:0 auto;
             @include s{
-              width:50%;
+              width:70%;
             }
             
             @include f{
               margin-top:10%;
             }
             @include f1{
-              width:60%;
+              width:100%;
             }
            
              i{

@@ -479,7 +479,7 @@ body #about #rside {
 
 body #about #fafa {
   margin-top: 10%;
-  width: 35%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -491,7 +491,7 @@ body #about #fafa {
 
 @media (max-width: 960px) {
   body #about #fafa {
-    width: 50%;
+    width: 70%;
   }
 }
 
@@ -503,7 +503,7 @@ body #about #fafa {
 
 @media (max-width: 480px) {
   body #about #fafa {
-    width: 60%;
+    width: 100%;
   }
 }
 
